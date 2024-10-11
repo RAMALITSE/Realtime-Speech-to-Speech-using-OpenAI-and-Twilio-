@@ -1,12 +1,12 @@
 #  Realtime Speech to Speech using OpenAI an Twillio (Node.js)
 
-This application demonstrates how to use Node.js, [Twilio Voice](https://www.twilio.com/docs/voice) and [Media Streams](https://www.twilio.com/docs/voice/media-streams), and [OpenAI's Realtime API](https://platform.openai.com/docs/) to make a phone call to speak with an AI Assistant. 
+The application demonstrates how to use Node.js, [Twilio Voice](https://www.twilio.com/docs/voice) and [Media Streams](https://www.twilio.com/docs/voice/media-streams), and [OpenAI's Realtime API](https://platform.openai.com/docs/) to make a phone call to speak with an AI Assistant. 
 
 The application opens websockets with the OpenAI Realtime API and Twilio, and sends voice audio from one to the other to enable a two-way conversation.
 
 
 
-This application uses the following Twilio products in conjuction with OpenAI's Realtime API:
+The application uses the following Twilio products in conjuction with OpenAI's Realtime API:
 - Voice (and TwiML, Media Streams)
 - Phone Numbers
 
